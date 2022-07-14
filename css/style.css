@@ -144,7 +144,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
     /* position: relative; */
-
+    font-size:30px;
   }
 
   .hero-image, .hero-text{
@@ -199,6 +199,7 @@ body{
   
   transform: translateY(-15px);
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+
 
   /* Fecha: 14/07/2022 */
   /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
