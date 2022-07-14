@@ -199,6 +199,10 @@ body{
   
   transform: translateY(-15px);
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+
+  /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
+  background-color:#5E88FC;
+  
 }
 
 .card-container .card-item img {
