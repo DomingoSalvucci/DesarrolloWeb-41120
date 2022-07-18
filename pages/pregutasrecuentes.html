@@ -6,17 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas Frecuentes</title>
 
+    <script src="https://kit.fontawesome.com/19328f4d21.js" crossorigin="anonymous"></script>
+
     <script src="../js/index.js"></script>
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
-    <header>
-        <header>
-            <a href="../index.html">
-                <input class="fcc-btn" type="button" value="Para Volver">
-            </a>        
-        </header>
+	<header class="header">
+        <div class="">
+            <img src="../images/2022-06-25_23-25-25.png" class="logo nav-link" title="Logo Armando Viajes"  alt="Logo Armando Viajes" width="10px">
+        </div>
+        <nav class="nav-menu">
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i> <!--Icono en forma de pila que se muestra al contraer la pantalla-->
+            </button>
+
+			<ul class="nav-ul"> <!-- nav-menu_visible por ahora no lo utilizo-->
+				<li class="nav-ul-li">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/servicios.html" class="nav-link">Servicio</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/contacto.html" class="nav-link">Contacto</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/ubicacion.html" class="nav-link">Ubicacion</a>
+                </li>
+			</ul>
+		</nav>
     </header>
 
     <main>
@@ -29,5 +52,46 @@
         </p>
         <a href="https://www.jimdo.com/es/blog/preguntas-frecuentes-en-pagina-web/" target="_blank">Conozca mas</a>
     </main>
+
+    </main>
+   
+    <section>
+        <div class="div-hr">
+            <hr class="hr">
+        </div>
+    </section>  
+
+    <footer class="footer">
+
+
+        <ul class="foot-ul">
+            <li class="foot-ul-item"><a href="../pages/pregutasrecuentes.html">Preguntas Frecuentes</a></li>
+            <li class="foot-ul-item"><a href="../pages/politicaDePrivacidad.html">Politica de Privacidad</a></li>
+            <li class="foot-ul-item"><a href="../pages/terminosYCondiciones.html">Terminos y Condiciones</a></li>
+        </ul>
+
+        <div class="div-redes">
+            <div class="div-redes-item">
+            <i class="fa-brands fa-instagram-square"></i>
+            </div>
+            <div class="div-redes-item">
+            <i class="fa-brands fa-facebook-square"></i>
+            </div>
+            <div class="div-redes-item">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="div-redes-item">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            
+        </div>
+
+        <div class="foot-div">
+            <p class="foot-div-p">Copyright © 2022</p>
+            <p class="foot-div-p">Todos Los Derechos Reservados</p>
+        </div>
+
+    </footer>
+
 </body>
 </html>
