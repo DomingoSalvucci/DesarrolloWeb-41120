@@ -7,6 +7,7 @@
     <title>Ubicacion</title>
 
     <link rel="shortcut icon" href="../images/earth.svg">
+    <script src="https://kit.fontawesome.com/19328f4d21.js" crossorigin="anonymous"></script>
 
     <script src="../js/index.js"></script>
     <link rel="stylesheet" href="../css/style.css">
@@ -15,21 +16,33 @@
 <!-- Subitdo a gitHub 17/07/2022 -->
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <img src="../images/2022-06-25_23-25-25.png" class="logo nav-link" title="Logo Armando Viajes"  alt="Logo Armando Viajes" >
+	<header class="header">
+        <div class="">
+            <img src="../images/2022-06-25_23-25-25.png" class="logo nav-link" title="Logo Armando Viajes"  alt="Logo Armando Viajes" width="10px">
+        </div>
+        <nav class="nav-menu">
             <button class="nav-toggle">
                 <i class="fa-solid fa-bars"></i> <!--Icono en forma de pila que se muestra al contraer la pantalla-->
             </button>
 
-            <ul class="nav-menu"> <!-- nav-menu_visible por ahroa no lo utilizo-->
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link nav-link">Home</a></li>
-                <li class="nav-menu-item"><a href="../pages/nosotros.html" class="nav-menu-link nav-link">Nosotros</a></li>
-                <li class="nav-menu-item"><a href="../pages/servicios.html" class="nav-menu-link nav-link">Servicio</a></li>
-                <li class="nav-menu-item"><a href="../pages/contacto.html" class="nav-menu-link nav-link">Contacto</a></li>
-                <li class="nav-menu-item"><a href="../pages/ubicacion.html" class="nav-menu-link nav-link">Ubicacion</a></li>
-            </ul>
-        </nav>
+			<ul class="nav-ul"> <!-- nav-menu_visible por ahora no lo utilizo-->
+				<li class="nav-ul-li">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/servicios.html" class="nav-link">Servicio</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/contacto.html" class="nav-link">Contacto</a>
+                </li>
+				<li class="nav-ul-li">
+                    <a href="../pages/ubicacion.html" class="nav-link">Ubicacion</a>
+                </li>
+			</ul>
+		</nav>
     </header>
 
     <main>
@@ -52,6 +65,44 @@
             </article>
         </section>
     </main>
+
+    <section>
+        <div class="div-hr">
+            <hr class="hr">
+        </div>
+    </section>  
+
+    <footer class="footer">
+
+
+        <ul class="foot-ul">
+            <li class="foot-ul-item"><a href="../pages/pregutasrecuentes.html">Preguntas Frecuentes</a></li>
+            <li class="foot-ul-item"><a href="../pages/politicaDePrivacidad.html">Politica de Privacidad</a></li>
+            <li class="foot-ul-item"><a href="../pages/terminosYCondiciones.html">Terminos y Condiciones</a></li>
+        </ul>
+
+        <div class="div-redes">
+            <div class="div-redes-item">
+            <i class="fa-brands fa-instagram-square"></i>
+            </div>
+            <div class="div-redes-item">
+            <i class="fa-brands fa-facebook-square"></i>
+            </div>
+            <div class="div-redes-item">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="div-redes-item">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            
+        </div>
+
+        <div class="foot-div">
+            <p class="foot-div-p">Copyright © 2022</p>
+            <p class="foot-div-p">Todos Los Derechos Reservados</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
