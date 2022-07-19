@@ -107,13 +107,11 @@ body{
 .card-container .card-item:hover{
   transform: translateY(-15px);
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD
 
-=======
   /* Fecha: 14/07/2022 */
   /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
   background-color:#5E88FC;
->>>>>>> rama-2
+
 }
 
 .card-container .card-item img {
