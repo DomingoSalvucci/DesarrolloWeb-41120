@@ -120,7 +120,7 @@ body{
   /* modificamos flex por GRID para el desafio */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
+  justify-items: center;
   margin: auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 90%;
@@ -434,7 +434,7 @@ footer a{
     /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    justify-items: center;
     margin: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* width: 100%; */
