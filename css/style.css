@@ -123,20 +123,20 @@ body{
 
   margin: auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 100%;
+  width: 90%;
   /* max-width: 1200px; */
   /* height: 480px; */
-  height: 550px;
+  height: 500px;
 }
 
 .card-container .card-item{
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  margin: 20px;
+  margin: 5px;
   text-align: center;
   transition: all 0.25s;
   font-size: 20px;
-  width: 80%;
+  width: 70%;
   /* font-weight: 00; */
 }
 
@@ -297,6 +297,12 @@ footer a{
   position: relative;
 }
 
+.parrafo{
+  display: block;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+}
 
 /* MEDIA ----------------------------------------------------- */
 /* MEDIA ----------------------------------------------------- */
@@ -405,9 +411,9 @@ footer a{
   }
 
   .card-item-p{
-    /* padding: 0 1rem; */
-    font-size: small;
-    /* font-weight: 300; */
+    padding: 0 1rem;
+    font-size: 30px;
+    font-weight: 300;
   }
 
   .div-hr{
@@ -433,16 +439,16 @@ footer a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* width: 100%; */
     max-width: 1200px;
-    height: 1100px;
+    height: 1200px;
   }
 
-  /* .card-container .card-item{
-    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+  .card-container .card-item{
+    /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+    /* overflow: hidden; */
     margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-  } */
+    /* text-align: center; */
+    /* transition: all 0.25s; */
+  }
 
   .card-container .card-item:hover{
     transform: translateY(-15px);
@@ -456,18 +462,18 @@ footer a{
 
   .card-container .card-item img {
     /* width: 100%; */
-    height: 50%;
+    height: 55%;
   }
 
   /* .card-container .card-item h4 {
     padding: 10px;
     font-weight: 600px;
   } */
-  /* .card-container .card-item p{
+  .card-container .card-item p{
     padding: 0 1rem;
-    font-size: 14px;
-    font-weight: 300;
-  } */
+    font-size: 15px;
+    /* font-weight: 300; */
+  }
   /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
 
 
