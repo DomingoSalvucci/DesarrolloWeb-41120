@@ -4,66 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubicacion</title>
+    <title> Ubicacion </title>
 
     <link rel="shortcut icon" href="../images/earth.svg">
     <script src="https://kit.fontawesome.com/19328f4d21.js" crossorigin="anonymous"></script>
 
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="../js/index.js"></script>
 
 </head>
 <!-- Subitdo a gitHub 17/07/2022 -->
-
 <body>
-	<header class="header">
+	<header class="header_pp">
         <div class="">
-            <img src="../images/2022-06-25_23-25-25.png" class="logo nav-link" title="Logo Armando Viajes"  alt="Logo Armando Viajes" width="10px">
+            <img src="../images/2022-06-25_23-25-25.png" class="logo_pp" title="Logo Armando Viajes"  alt="Logo Armando Viajes" width="10px">
         </div>
-        <nav class="nav-menu">
-            <button class="nav-toggle">
+        <nav class="nav-menu_pp">
+            <button class="nav-toggle_pp">
                 <i class="fa-solid fa-bars"></i> <!--Icono en forma de pila que se muestra al contraer la pantalla-->
             </button>
 
-			<ul class="nav-ul"> <!-- nav-menu_visible por ahora no lo utilizo-->
-				<li class="nav-ul-li">
-                    <a href="../index.html" class="nav-link">Home</a>
+			<ul class="nav-ul_pp"> <!-- nav-menu_visible por ahora no lo utilizo-->
+				<li class="nav-ul-li_pp">
+                    <a href="../index.html" style="text-decoration:none; color:white;">Home</a>
                 </li>
-				<li class="nav-ul-li">
-                    <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
+				<li class="nav-ul-li_pp">
+                    <a href="../pages/nosotros.html" style="text-decoration:none; color:white;">Nosotros</a>
                 </li>
-				<li class="nav-ul-li">
-                    <a href="../pages/servicios.html" class="nav-link">Servicio</a>
+				<li class="nav-ul-li_pp">
+                    <a href="../pages/servicios.html" style="text-decoration:none; color:white;">Servicio</a>
                 </li>
-				<li class="nav-ul-li">
-                    <a href="../pages/contacto.html" class="nav-link">Contacto</a>
+				<li class="nav-ul-li_pp">
+                    <a href="../pages/contacto.html"  style="text-decoration:none; color:white;">Contacto</a>
                 </li>
-				<li class="nav-ul-li">
-                    <a href="../pages/ubicacion.html" class="nav-link">Ubicacion</a>
+				<li class="nav-ul-li_pp">
+                    <a href="../pages/ubicacion.html" style="text-decoration:none; color:white;">Ubicacion</a>
                 </li>
 			</ul>
 		</nav>
     </header>
 
     <main>
-        <br><br><br><br><br>
-        <h1>Ubicacion</h1>
         <section>
-            <article>
-                <table border="2" WIDTH="100%">
-                    <tr>
-                        <td>
-                            <h3>Ubicación en GoogleMap</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d821.0054242531226!2d-58.381998570518206!3d-34.60361285587411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1655723627837!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </td>
-                    </tr>
-                </table>
-            </article>
+            <div class="div-hr">
+                <hr class="hr">
+            </div>
         </section>
+
+        <div class="container">
+            <div class="row div_marg_padd">
+                <div class="col-md-6 div_1">
+                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.5023465325189!2d-58.381657929974715!3d-34.60368681464116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1658509872235!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <div class="col-md-6 div_2">
+                    <h2>Nuestra Ubicacion: </h2>
+                    <section>
+                        <strong>Obelisco: En el Centro de La Ciudad</strong><br>
+                        Av. Corrientes 1000 y Av. 9 de Julio<br>
+                        Ciudad Autonoma de Buenos Aires<br>
+                        Argentina<br>
+                        CP: C1043AAJ<br>
+                        <abbr title="Telefono">Tel:</abbr> (+54) 11 2222 3333
+                    </section>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <section>
@@ -72,9 +84,58 @@
         </div>
     </section>  
 
+    <div class="container">
+    <div class="row">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/venecia_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight: bold; font-size: x-large;">Venecia, Italia</h5>
+              <p style="font-size: x-large;">Lugar de ensueño entre Canales, Puentes e Historia.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/hamburg_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight: bold; font-size: x-large;">Hamburgo, Alemania</h5>
+              <p style="font-size: x-large;">Una de las ciudades más urbanizadas de Europa, Ofrece más de 40 teatros y 60 museos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/beach_2_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-weight: bold; font-size: x-large;">Playas Paradisiacas</h5>
+              <p style="font-size: x-large;">Todo el Caribe en un solo lugar.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="font-weight: bold; color: black;">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="font-weight: bold; color: black;">Proximo</span>
+        </button>
+    </div>
+    </div>
+    </div>
+
+    <section>
+        <div class="div-hr">
+            <hr class="hr">
+        </div>
+    </section>
+
+
+
     <footer class="footer">
-
-
         <ul class="foot-ul">
             <li class="foot-ul-item"><a href="../pages/pregutasrecuentes.html">Preguntas Frecuentes</a></li>
             <li class="foot-ul-item"><a href="../pages/politicaDePrivacidad.html">Politica de Privacidad</a></li>
