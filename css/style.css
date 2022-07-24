@@ -160,7 +160,7 @@ align-items: center;
   justify-items: center;
   margin: auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 90%;
+  /* width: 90%; */
   /* max-width: 1200px; */
   /* height: 480px; */
   height: 500px;
@@ -517,6 +517,5 @@ footer a{
 /* FIN MEDIA --------------------------------------------------------------- */
 /* FIN MEDIA --------------------------------------------------------------- */
 /* FIN MEDIA --------------------------------------------------------------- */
-
 
 
