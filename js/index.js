@@ -14,15 +14,3 @@ navToggle_pp.addEventListener('click', () => {
    navMenu_pp.classList.toggle("nav-menu_visible");
 });
 
-
-if (screen.width < 1000) {
-   alert('menos de 1000')
-   }  else {
-            if (screen.width < 1280) 
-               {
-               document.write ("Mediana");
-               }
-               else { 
-                  document.write ("Grande");
-                   }
-         };
