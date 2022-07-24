@@ -24,7 +24,6 @@ body{
   color: #36A0FF;
 }
 
-
 .header_pp {
   background-color: #5E88FC;
   /* Menu visible cuando hago scroll */
@@ -35,7 +34,7 @@ body{
 
   justify-content:space-around;
   height: 80px;
-
+min-width: 768;
 }
 
 .div_marg_padd{
@@ -146,7 +145,7 @@ align-items: center;
   justify-items: center;
   margin: auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  height: 500px;
+  height: 90%;
 }
 
 .card-container .card-item{
@@ -165,7 +164,12 @@ align-items: center;
   /* Fecha: 14/07/2022 */
   /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
   background-color:#5E88FC;
+}
 
+#card-item-p{
+  /* background-color: aqua; */
+  padding: 0 1rem;
+  font-size: 70%;
 }
 
 .card-container .card-item img {
@@ -176,11 +180,11 @@ align-items: center;
 .card-container .card-item h4 {
   padding: 10px;
 }
-.card-container .card-item p{
+/* .card-container .card-item p{
   padding: 0 1rem;
   font-size: 15px;
   font-weight: 300;
-}
+} */
 /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
 
 
@@ -324,6 +328,106 @@ footer a{
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
+
+ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #card-item-p{
+    /* background-color: aqua; */
+    padding: 0 1rem;
+    font-size: 55%;
+  }
+  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* MENU ---------------------------------------------- */
+  .header_pp {
+    height: 60px;
+}
+
+.nav-ul_pp {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #39638d;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0px; 
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+}
+
+.nav-ul-li_pp{
+  line-height: 30px;
+}
+
+.nav-ul-li_pp:hover{
+  background-color: #4a86c2;
+  width: 30%;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.nav-ul-li-link_pp:hover,
+.nav-ul-li-link_active{
+    background: none;
+}
+
+.nav-toggle_pp{
+    display: block;
+}
+
+.nav-menu_visible{
+    left: 0;
+}
+
+.hero-image {
+  font-size:30px;
+}
+  /* FIN MENU ------------------------------------------ */
+  .card-container{
+    /* 12/07/2022 */
+    /* modificamos flex por GRID para el desafio */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1200px;
+    min-width: 500px;
+    height: 70%;
+  }
+
+  .card-container .card-item{
+    /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+    margin: 20px;
+  }
+
+  .card-container .card-item:hover{
+    transform: translateY(-15px);
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+    /* Fecha: 14/07/2022 */
+    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
+    background-color:#5E88FC;
+  }
+  #card-item-p{
+    /* background-color: aqua; */
+    padding: 0 1rem;
+    font-size: 70%;
+  }
+
+  .card-container .card-item img {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+
+
 @media(max-width: 768px){
 
   .footer{
@@ -339,7 +443,7 @@ footer a{
   
   }
 
-  .header, .header_pp {
+  .header_pp {
       height: 60px;
   }
   
@@ -349,18 +453,16 @@ footer a{
       margin-right: 20px;
       background-color: #39638d;
       position: fixed;
-      /* right: 0; */
       top: 60px;
       width: 100%;
       padding: 20px 0px; 
-      /* height: calc(100% - 60px); */
       overflow-y: auto;
 
       left: 100%;
       transition: left 0.3s;
   }
 
-  .nav-ul-li, .nav-ul-li_pp{
+  .nav-ul-li_pp{
     line-height: 30px;
   }
   
@@ -374,10 +476,9 @@ footer a{
   .nav-ul-li-link_pp:hover,
   .nav-ul-li-link_active{
       background: none;
-      /* color: #80898f; */
   }
 
-  .nav-toggle, .nav-toggle_pp{
+  .nav-toggle_pp{
       display: block;
   }
 
@@ -407,13 +508,6 @@ footer a{
     position: relative;
     width: 100%;
   }
-
-  .card-item-p{
-    padding: 0 1rem;
-    font-size: 30px;
-    font-weight: 300;
-  }
-
   .div-hr{
     /* background-color: orangered; */
     display: flex;
@@ -435,7 +529,7 @@ footer a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 1200px;
     min-width: 500px;
-    height: 1350px;
+    height: 100%;
   }
 
   .card-container .card-item{
@@ -450,15 +544,18 @@ footer a{
     /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
     background-color:#5E88FC;
   }
+  #card-item-p{
+    /* background-color: aqua; */
+    padding: 0 1rem;
+    font-size: 70%;
+  }
 
   .card-container .card-item img {
     width: 300px;
     height: 250px;
   }
 
-  .card-container .card-item p{
-    font-size: 15px;
-  }
+
   /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
 
 }
