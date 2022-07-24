@@ -57,15 +57,14 @@ align-items: center;
   text-align: center;
 }
 
-.logo, .logo_pp {
+.logo_pp {
   /* background-color: black; */
   display: flex;
   width: 100%;
   height: 100%;
-} 
+}
 
-
-.nav-menu, .nav-menu_pp {
+.nav-menu_pp {
   /* background-color: black; */
   display: flex;
   justify-content: space-between;
@@ -73,15 +72,14 @@ align-items: center;
   list-style: none;
 }
 
-
-.nav, .nav_pp {
+.nav_pp {
   /* background-color: orange; */
   display: flex;
   justify-content: space-between;
   max-width: 992px;
 }
 
-.nav-ul, .nav-ul_pp {
+.nav-ul_pp {
   /* background-color: tomato; */
   height: 100%;
   list-style: none;
@@ -89,7 +87,6 @@ align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  
  }
 
 .nav-ul-li_pp {
@@ -98,32 +95,20 @@ align-items: center;
   width: 150px;
   margin: 10px;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
 
-.nav-ul-li {
-  /* background-color: black; */
-  text-transform: uppercase;
-  width: 150px;
-  margin: 10px;
-  padding: 15px;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.nav-link, .nav-link_pp {
+.nav-link_pp {
   color: white;
   text-decoration: none;
   /* padding: 8px 12px; */
   /* border-radius: 13px; */
 }
 
-.nav-ul-li:hover, .nav-ul-li_pp:hover,
+.nav-ul-li_pp:hover,
 .nav-menu-link_active{
   background-color: #1f5d8a;
   text-decoration: none;
@@ -161,9 +146,6 @@ align-items: center;
   justify-items: center;
   margin: auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /* width: 90%; */
-  /* max-width: 1200px; */
-  /* height: 480px; */
   height: 500px;
 }
 
@@ -175,13 +157,11 @@ align-items: center;
   transition: all 0.25s;
   font-size: 20px;
   width: 70%;
-  /* font-weight: 00; */
 }
 
 .card-container .card-item:hover{
   transform: translateY(-15px);
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-
   /* Fecha: 14/07/2022 */
   /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
   background-color:#5E88FC;
@@ -195,7 +175,6 @@ align-items: center;
 
 .card-container .card-item h4 {
   padding: 10px;
-  /* font-weight: 600px; */
 }
 .card-container .card-item p{
   padding: 0 1rem;
@@ -206,6 +185,9 @@ align-items: center;
 
 
 /* FOOTER ------------------------------------------------------------------ */
+/* FOOTER ------------------------------------------------------------------ */
+/* FOOTER ------------------------------------------------------------------ */
+
 .footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -255,8 +237,6 @@ align-items: center;
 .foot-ul-item{
   /* background-color: orange; */
   display: flex;
-  /* list-style: none;  */
-  /*centramos los items*/
   align-items:center;
   font-size: 13px; /*tamaño de la letra*/
   padding: 10px;
@@ -292,8 +272,10 @@ footer a{
   background-color: black;
 }
 /* FIN FOOTER -------------------------------------------------------------- */
+/* FIN FOOTER -------------------------------------------------------------- */
+/* FIN FOOTER -------------------------------------------------------------- */
 
-/* codigo para adaptar de las otras paginas */
+/* codigo para adaptar texto flotante e imagen de montaña------------------- */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -313,6 +295,9 @@ footer a{
   background-size: cover;
   position: relative;
 }
+/* FIN codigo para adaptar texto flotante e imagen de montaña--------------- */
+/* FIN codigo para adaptar texto flotante e imagen de montaña--------------- */
+/* FIN codigo para adaptar texto flotante e imagen de montaña--------------- */
 
 .parrafo{
   display: block;
@@ -322,6 +307,8 @@ footer a{
 }
 
 /* CARROUSEL -------------------------------------------------------------------------------------------------------- */
+/* CARROUSEL -------------------------------------------------------------------------------------------------------- */
+/* CARROUSEL -------------------------------------------------------------------------------------------------------- */
 .carousel_h5{
   font-weight: bold; 
   font-size: xx-large;
@@ -329,6 +316,8 @@ footer a{
 .carousel_p{
   font-size: x-large;
 }
+/* FIN  CARROUSEL ---------------------------------------------------------------------------------------------------- */
+/* FIN  CARROUSEL ---------------------------------------------------------------------------------------------------- */
 /* FIN  CARROUSEL ---------------------------------------------------------------------------------------------------- */
 
 
@@ -343,11 +332,8 @@ footer a{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     align-content: center;
-
     height: 100%; /*Alto de la imagen*/
     width: 100%;
-    /* border: 2px solid red; */
-  
     grid-column-gap: 20px;
     grid-row-gap: 15px;
   
@@ -357,14 +343,7 @@ footer a{
       height: 60px;
   }
   
-  /* .logo {
-    display: flex;
-    line-height: 80px;
-    width: 200px; 
-    height: 100%;
-  } */
-  
-  .nav-ul, .nav-ul_pp {
+  .nav-ul_pp {
       flex-direction: column;
       align-items: center;
       margin-right: 20px;
@@ -385,14 +364,14 @@ footer a{
     line-height: 30px;
   }
   
-  .nav-ul-li:hover, .nav-ul-li_pp:hover{
+  .nav-ul-li_pp:hover{
     background-color: #4a86c2;
     width: 30%;
     font-size: 20px;
     transition: 0.2s;
   }
  
-  .nav-ul-li-link:hover, .nav-ul-li-link_pp:hover,
+  .nav-ul-li-link_pp:hover,
   .nav-ul-li-link_active{
       background: none;
       /* color: #80898f; */
@@ -407,19 +386,11 @@ footer a{
   }
 
   .hero-image {
-    /* background-image: url("../images/mountains-g4dc235c11_1920.jpg");
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* position: relative; */
     font-size:30px;
   }
 
   .hero-text{
     text-align: center;
-    /* position: absolute; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -435,7 +406,6 @@ footer a{
     background-size: cover;
     position: relative;
     width: 100%;
-    /* height: 100%; */
   }
 
   .card-item-p{
@@ -458,13 +428,11 @@ footer a{
   .card-container{
     /* 12/07/2022 */
     /* modificamos flex por GRID para el desafio */
-    /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     margin: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* width: 100%; */
     max-width: 1200px;
     min-width: 500px;
     height: 1350px;
@@ -472,10 +440,7 @@ footer a{
 
   .card-container .card-item{
     /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
-    /* overflow: hidden; */
     margin: 20px;
-    /* text-align: center; */
-    /* transition: all 0.25s; */
   }
 
   .card-container .card-item:hover{
@@ -491,14 +456,8 @@ footer a{
     height: 250px;
   }
 
-  /* .card-container .card-item h4 {
-    padding: 10px;
-    font-weight: 600px;
-  } */
   .card-container .card-item p{
-    /* padding: 0 1rem; */
     font-size: 15px;
-    /* font-weight: 300; */
   }
   /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
 
