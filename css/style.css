@@ -103,8 +103,7 @@ align-items: center;
 .nav-link_pp {
   color: white;
   text-decoration: none;
-  /* padding: 8px 12px; */
-  /* border-radius: 13px; */
+
 }
 
 .nav-ul-li_pp:hover,
@@ -163,7 +162,7 @@ align-items: center;
   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
   /* Fecha: 14/07/2022 */
   /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
-  background-color:#5E88FC;
+  /* background-color:#d8f9fc; */
 }
 
 #card-item-p{
@@ -180,40 +179,14 @@ align-items: center;
 .card-container .card-item h4 {
   padding: 10px;
 }
-/* .card-container .card-item p{
-  padding: 0 1rem;
-  font-size: 15px;
-  font-weight: 300;
-} */
+
 /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
-
-
-/* FOOTER ------------------------------------------------------------------ */
-/* FOOTER ------------------------------------------------------------------ */
-/* FOOTER ------------------------------------------------------------------ */
-
-.footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 120px; /*Alto de la imagen*/
-  width: 100%;
-  grid-column-gap: 20px;
-  grid-row-gap: 15px;
-
-}
 
 .div-ul{
   display: flex;
   flex-direction: row;
   align-items:center;
   justify-content: center;
-}
-
-.foot-ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .div-redes{
@@ -236,20 +209,6 @@ align-items: center;
   /* background-color:chartreuse;  */
   margin: auto;
   padding: 20px;
-}
-
-.foot-ul-item{
-  /* background-color: orange; */
-  display: flex;
-  align-items:center;
-  font-size: 13px; /*tamaño de la letra*/
-  padding: 10px;
-  text-transform: uppercase; /*Todo a Mayusculas*/
-  width: max-content; /* alto define el maximo del contenedor*/
-}
-
-footer a{
-  text-decoration: none;
 }
 
 .div-redes-item{
@@ -275,9 +234,6 @@ footer a{
   width: 50%;
   background-color: black;
 }
-/* FIN FOOTER -------------------------------------------------------------- */
-/* FIN FOOTER -------------------------------------------------------------- */
-/* FIN FOOTER -------------------------------------------------------------- */
 
 /* codigo para adaptar texto flotante e imagen de montaña------------------- */
 .hero-text {
@@ -330,7 +286,6 @@ footer a{
   margin: 20px;
 }
 
-
 .card-section{
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
@@ -339,14 +294,73 @@ footer a{
 	box-shadow:1px 1px 20px #d2d2d2;
 }
 
+/* Formato para filtro de tarjetas de viajes */
+/* Formato para filtro de tarjetas de viajes */
 
+.input_filtro {
+  background-color: tomato;
+  border: 3px solid black;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.cotaniner_filtro{
+  /* border: 3px solid red; */
+  background-color: rgb(247, 250, 253);
+  margin-top: 30px;
+  max-width: 95%;
+}
+.card_filtro {
+  background-color: rgb(240, 252, 229);
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px black;
+  /*    superior, derecho, inferior, izquierdo */
+  margin: 20px 20px 20px 20px; 
+  transition: all 0.25s;
+
+}
+
+.card_filtro:hover {
+transform: translateY(-10px);
+/* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); */
+}
+
+
+/* .card_lista{
+  box-shadow: 0 5px 10px rgb(8, 5, 128);
+}
+.row_filtro {
+  justify-content: center;
+  border: 3px solid rgb(143, 62, 62);
+  width: 100%;
+} */
+
+.hero-text2 {
+  /* text-align:center; */
+  /* background-color: #0077c4; */
+  height: 35%;
+  position:absolute;
+  /*    superior, derecho, inferior, izquierdo */
+  /* margin: 0px 0px 100px 0px; */
+  top: 35%;
+  left: 0%;
+  /* left: 30%; */
+  /* bottom: 60%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  font-size:15px;
+  font-weight:500;
+}
 
 
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
 /* MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA --- MEDIA */
 
- 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #card-item-p{
     /* background-color: aqua; */
@@ -371,51 +385,53 @@ footer a{
   /* MENU ---------------------------------------------- */
   .header_pp {
     height: 60px;
-}
+  }
 
-.nav-ul_pp {
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-    background-color: #39638d;
-    position: fixed;
-    top: 60px;
-    width: 100%;
-    padding: 20px 0px; 
-    overflow-y: auto;
+  .nav-ul_pp {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+      background-color: #39638d;
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0px; 
+      overflow-y: auto;
 
-    left: 100%;
-    transition: left 0.3s;
-}
+      left: 100%;
+      transition: left 0.3s;
+  }
 
-.nav-ul-li_pp{
-  line-height: 30px;
-}
+  .nav-ul-li_pp{
+    line-height: 30px;
+  }
 
-.nav-ul-li_pp:hover{
-  background-color: #4a86c2;
-  width: 30%;
-  font-size: 20px;
-  transition: 0.2s;
-}
+  .nav-ul-li_pp:hover{
+    background-color: #4a86c2;
+    width: 30%;
+    font-size: 20px;
+    transition: 0.2s;
+  }
 
-.nav-ul-li-link_pp:hover,
-.nav-ul-li-link_active{
-    background: none;
-}
+  .nav-ul-li-link_pp:hover,
+  .nav-ul-li-link_active{
+      background: none;
+  }
 
-.nav-toggle_pp{
-    display: block;
-}
+  .nav-toggle_pp{
+      display: block;
+  }
 
-.nav-menu_visible{
-    left: 0;
-}
+  .nav-menu_visible{
+      left: 0;
+  }
 
-.hero-image {
-  font-size:30px;
-}
+  .hero-image {
+    font-size:30px;
+  }
   /* FIN MENU ------------------------------------------ */
+
+  /* Card ---------------------------------------------- */
   .card-container{
     /* 12/07/2022 */
     /* modificamos flex por GRID para el desafio */
@@ -451,12 +467,17 @@ footer a{
     width: 300px;
     height: 250px;
   }
+  /* FIN Card ------------------------------------------ */
 }
 
 
 
 @media(max-width: 768px){
-
+  /* tamaño de la letra cuando usamos menu hamburguesa en preguntasFrecuentes.html */
+  .tamaño_pp{
+    font-size: 2vh;
+  }
+  /* tamaño de la letra cuando usamos menu hamburguesa en nosotros.html */
   .espacio_pp {
     max-width: 50rem; 
     height: 26rem; 
@@ -468,18 +489,6 @@ footer a{
 
   .dimension-texto{
     font-size: 70%;;
-  }
-  .footer{
-    /* background-color:bisque; */
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    align-content: center;
-    height: 100%; /*Alto de la imagen*/
-    width: 100%;
-    grid-column-gap: 20px;
-    grid-row-gap: 15px;
-  
   }
 
   .header_pp {
@@ -637,12 +646,12 @@ footer a{
 }
 
 /* Formas de PAgos ------------------------------------------*/
-.nuevoContenedorPromosBancarias {
+.ContenedorPromosBancarias {
   background: linear-gradient(90deg, #5E88FC 0%, rgba(1,98,197,1) 52%, rgb(15, 89, 163) 100%);
   text-align: center;
 }
 
-.nuevoContenedorPromosBancarias .cuadroTarjeta {
+.ContenedorPromosBancarias .cuadroTarjeta {
   display: inline-block;
   padding: 1em 0;
   margin: 1rem;
@@ -652,19 +661,19 @@ footer a{
   cursor: pointer;
 }
 
-.nuevoContenedorPromosBancarias .cuadroTarjeta:hover {
+.ContenedorPromosBancarias .cuadroTarjeta:hover {
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
 }
 
-.nuevoContenedorPromosBancarias .cuadroTarjeta .textoCuota {
+.ContenedorPromosBancarias .cuadroTarjeta .textoCuota {
 color: #0090d1 !important;
 font-size: 20px !important;
 margin: 0 !important;
 }
 
-.nuevoContenedorPromosBancarias .cuadroTarjeta .textoCondiciones {
+.ContenedorPromosBancarias .cuadroTarjeta .textoCondiciones {
 color: #0090d1 !important;
 font-size: 12px !important;
 margin: 0 !important;

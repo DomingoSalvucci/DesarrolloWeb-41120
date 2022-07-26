@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Preguntas Frecuentes </title>
 
-    <link rel="shortcut icon" href="../images/people_alt.svg">
+    <link rel="shortcut icon" href="../images/circle-question-solid.svg">
     <script src="https://kit.fontawesome.com/19328f4d21.js" crossorigin="anonymous"></script>
 
     <!-- CSS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ .min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="../js/index.js"></script>
 
 </head>
-<!-- Subitdo a gitHub 17/07/2022 -->
-
+<!-- Subido a gitHub 17/07/2022 -->
 <body>
 	<header class="header_pp">
         <div class="">
@@ -51,15 +53,107 @@
     </header>
 
     <main>
-        <h1>Cómo escribir una página de preguntas más frecuentes</h1>
-        <p>
 
-            Cuando creas un sitio web, la sección de “preguntas frecuentes” es una de las más importantes. Las mejores páginas de preguntas frecuentes representan una de las formas más eficaces de convencer a los nuevos clientes, concretar las ventas y ahorrar tiempo al no tener que estar respondiendo lo mismo continuamente.
+        <section>
+            <div class="div-hr">
+                <hr class="hr">
+            </div>
+        </section>  
+
+        <div class="m-5">
+
+            <h2>Preguntas Frecuentes</h2>
+            <p>Te sacamos todas las dudas para que compres con confianza.</p>
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                <div class="card-header" id="heading1">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link tamaño_pp" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-controls="collapse1" aria-expanded="true">
+                        ¿Necesito estar registrado para hacer efectiva una reserva?
+                    </button>
+                    </h5>
+                </div>
             
-            ¿Cómo empiezas a escribir una página de preguntas frecuentes y qué preguntas debes responder? Lee este artículo para saber cómo escribir una sección de preguntas más frecuentes y por qué tu negocio te lo agradecerá.
-        </p>
-        <a href="https://www.jimdo.com/es/blog/preguntas-frecuentes-en-pagina-web/" target="_blank">Conozca mas</a>
-    </main>
+                <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                    <div class="card-body">
+                        No es necesario. Podrás realizar tus compras en forma segura y sencilla sin tener que registrarte.
+                        Te comunicas por alguno de nuestros canales y realizamos la reserva.
+                        Al momento de realizar la reserva es importante que revises que tus datos personales y de contacto estén correctos.
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="heading2">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed tamaño_pp" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        ¿Cuál es el equipaje permitido para mi viaje?
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                    <div class="card-body">
+                        Todos los pasajeros tienen derecho a llevar un equipaje de mano dentro de la cabina y despachar un equipaje en la bodega del avión. 
+                        El peso y la cantidad de piezas permitidas dependerán de la línea aérea con la que realices tu vuelo, y de la ruta o tipo de pasaje 
+                        que tengas, entre otras variables. Lo podrás chequear en detalle contactándote con la línea aérea.
+                    </div>
+                </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="heading3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed tamaño_pp" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                ¿Es necesario hacer el Web Check-in previo a mi vuelo?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                        <div class="card-body">
+                            Realizar el Web Check-in entre 36 a 24 hs antes del vuelo asegura que se minimicen los tiempos de espera en aeropuertos y supone 
+                            una importante comodidad para los pasajeros. Por lo que no es una obligación realizar el Web Check-in, pero si una excelente alternativa.
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed tamaño_pp" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                ¿Qué formas de pago puedo utilizar?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                        <div class="card-body">
+                            Las compras se pueden pagar a través de tarjetas de crédito, transferencias y depósitos bancarios. 
+                            Tené en cuenta que, en el caso de realizar un depósito, las tarifas no incluyen el gasto del 5% sobre la tarifa según RG Nº 3825 de AFIP.
+                        </div>
+                    </div>
+                </div>     
+            
+                <div class="card">
+                    <div class="card-header" id="heading5">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed tamaño_pp" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                ¿A que telefonos puedo llamar?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                        <div class="card-body" style="line-height: 50%;">
+                            <p> Podes llamar a nustros equipos a los siguientes telefonos:</p>
+                            <p>Servicio de Atención al Cliente:</p>
+                            <p><b>0800 555 1111</b> - opcion 1 - De lunes a viernes de 9:00 a 19:00 hs.</p>
+                            <p>Departamento de Venta Telefónica:</p>
+                            <p><b>0800 555 2222</b> - opcion 2 - De lunes a viernes de 9:00 a 19:00 hs.</p>
+                            <p>Para consultas sobre reservas, formas de pago o entrega de vouchers.</p>
+                        </div>
+                    </div>
+                </div>     
+        
+            </div>
+        </div>
 
     </main>
    
@@ -87,17 +181,25 @@
                 <div class="col-6 w-60 " style="width: 40%;">
                     
                     <div class="d-flex flex-row mb-3" style="height: 100%; align-items: center; font-size: 40px;">
-                        <div class="p-2 w-25" style="text-align : center;">
-                            <i class="fa-brands fa-instagram-square"></i>
+                        <div class="p-2 w-25" style="text-align: center;">
+                            <a href="https://www.instagram.com" target="_blank">
+                             <i class="fa-brands fa-instagram-square" style="color: black;"></i>
+                            </a>
                         </div>
                         <div class="p-2 w-25" style="text-align: center;"> 
-                            <i class="fa-brands fa-facebook-square"></i>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa-brands fa-facebook-square" style="color: black;"></i>
+                            </a>
                         </div>
-                        <div class="p-2 w-25" style="text-align : center;">
-                            <i class="fa-brands fa-youtube"></i>
+                        <div class="p-2 w-25" style="text-align: center;">
+                            <a href="https://www.youtube.com" target="_blank">
+                                <i class="fa-brands fa-youtube" style="color: black;"></i>
+                            </a>
                         </div>
-                        <div class="p-2 w-25" style="text-align : center;">
-                            <i class="fa-brands fa-twitter"></i>
+                        <div class="p-2 w-25" style="text-align: center;">
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa-brands fa-twitter" style="color: black;"></i>
+                            </a>
                         </div>
                     </div>
     
