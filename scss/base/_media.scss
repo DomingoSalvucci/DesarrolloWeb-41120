@@ -1,0 +1,257 @@
+/* Import de archivo _media.scss */
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    #card-item-p{
+      padding: 0 1rem;
+      font-size: 55%;
+    }
+  
+    .dimension-texto{
+      font-size: 80%;;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  
+    .dimension-texto{
+      font-size: 73%;;
+    }
+  
+    .display-no{
+      display:none;
+    }
+    /* MENU ---------------------------------------------- */
+    .header_pp {
+      height: 60px;
+    }
+  
+    .nav-ul_pp {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #39638d;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0px; 
+        overflow-y: auto;
+  
+        left: 100%;
+        transition: left 0.3s;
+    }
+  
+    .nav-ul-li_pp{
+      line-height: 30px;
+    }
+  
+    .nav-ul-li_pp:hover{
+      background-color: #4a86c2;
+      width: 30%;
+      font-size: 20px;
+      transition: 0.2s;
+    }
+  
+    .nav-ul-li-link_pp:hover,
+    .nav-ul-li-link_active{
+        background: none;
+    }
+  
+    .nav-toggle_pp{
+        display: block;
+        cursor: pointer;
+    }
+  
+    .nav-menu_visible{
+        left: 0;
+    }
+  
+    .hero-image {
+      font-size:30px;
+    }
+    /* FIN MENU ------------------------------------------ */
+  
+    /* Card ---------------------------------------------- */
+    .card-container{
+      /* 12/07/2022 */
+      /* modificamos flex por GRID para el desafio */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      margin: auto;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      max-width: 1200px;
+      min-width: 500px;
+      height: 70%;
+    }
+  
+    .card-container .card-item{
+      /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+      margin: 20px;
+    }
+  
+    .card-container .card-item:hover{
+      transform: translateY(-15px);
+      box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+      /* Fecha: 14/07/2022 */
+      /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
+      background-color:#5E88FC;
+    }
+    #card-item-p{
+      /* background-color: aqua; */
+      padding: 0 1rem;
+      font-size: 70%;
+    }
+  
+    .card-container .card-item img {
+      width: 300px;
+      height: 250px;
+    }
+  }
+/* FIN Card ------------------------------------------ */
+  
+  
+  @media(max-width: 768px){
+    /* tamaño de la letra cuando usamos menu hamburguesa en preguntasFrecuentes.html */
+    .tamaño_pp{
+      font-size: 2vh;
+    }
+    /* tamaño de la letra cuando usamos menu hamburguesa en nosotros.html */
+    .espacio_pp {
+      max-width: 50rem; 
+      height: 26rem; 
+      margin: 20px;
+    }
+    .display-no{
+      display:none;
+    }
+  
+    .dimension-texto{
+      font-size: 70%;;
+    }
+  
+    .header_pp {
+        height: 60px;
+    }
+    
+    .nav-ul_pp {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #39638d;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0px;
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+  
+    .nav-ul-li_pp{
+      line-height: 30px;
+    }
+    
+    .nav-ul-li_pp:hover{
+      background-color: #4a86c2;
+      width: 30%;
+      font-size: 20px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    #cursor_pointer{
+        cursor: pointer;
+    }
+   
+    .nav-ul-li-link_pp:hover,
+    .nav-ul-li-link_active{
+        background: none;
+    }
+  
+    .nav-toggle_pp{
+        cursor:pointer;
+        display: block;
+        
+    }
+  
+    .nav-menu_visible{
+        left: 0;
+    }
+  
+    .hero-image {
+      font-size:30px;
+    }
+  
+    .hero-text{
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      font-size:20px;
+    }
+    .hero-image{
+      background-image: url("../images/mountains-g4dc235c11_1920.jpg");
+      background-color: #cccccc;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: 100%;
+    }
+    .div-hr{
+      /* background-color: orangered; */
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+    }
+  
+    /* CARD de TESTIMONIOS ----------------------------------------------------- */
+    .card-container{
+      /* 12/07/2022 */
+      /* modificamos flex por GRID para el desafio */
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      margin: auto;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      max-width: 1200px;
+      min-width: 500px;
+      height: 100%;
+    }
+  
+    .card-container .card-item{
+      /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+      margin: 20px;
+    }
+  
+    .card-container .card-item:hover{
+      transform: translateY(-15px);
+      box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+      /* Fecha: 14/07/2022 */
+      /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
+      background-color:#5E88FC;
+    }
+    #card-item-p{
+      /* background-color: aqua; */
+      padding: 0 1rem;
+      font-size: 70%;
+    }
+  
+    .card-container .card-item img {
+      width: 300px;
+      height: 250px;
+    }
+  
+  
+    /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
+  
+  }
+  /* FIN MEDIA --------------------------------------------------------------- */
+  /* FIN MEDIA --------------------------------------------------------------- */
+  /* FIN MEDIA --------------------------------------------------------------- */
+  

@@ -1,0 +1,77 @@
+/* Import de archivo _menu.scss */
+.header_pp {
+    background-color: #5E88FC;
+    /* Menu visible cuando hago scroll */
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content:space-around;
+    height: 80px;
+  min-width: 768;
+  }
+  .logo_pp {
+    /* background-color: black; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .nav-menu_pp {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    list-style: none;
+  }
+  .nav_pp {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+  }
+  .nav-ul_pp {
+    /* background-color: tomato; */
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+  .nav-ul-li_pp {
+    /* background-color: black; */
+    text-transform: uppercase;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .nav-link_pp {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-ul-li_pp:hover,
+  .nav-menu-link_active{
+    background-color: #1f5d8a;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .nav-toggle, .nav-toggle_pp{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 45px;
+    padding: 0 20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+  }
+  #itemMenu{
+    text-decoration:none; 
+    color: white;
+  }
+/* FIN MENU ---------------------------------------------------------------- */
+  

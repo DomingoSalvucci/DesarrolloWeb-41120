@@ -12,5 +12,8 @@ const navMenu_pp = document.querySelector(".nav-ul_pp");
 
 navToggle_pp.addEventListener('click', () => {
    navMenu_pp.classList.toggle("nav-menu_visible");
+
+   var x=0;
+
 });
 

@@ -1,0 +1,10 @@
+/* Import de archivo _reset.scss */
+*{
+    padding: 0px;
+    margin: 0px;
+    /* como se deben calcular las medidas de un elemento, hace que el padinng y borde pasen a fomrar parte del caculo de la caja */
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+  }
