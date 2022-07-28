@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Agrgamos archivos de IMPORT para desafio*/
 /* Import de archivo _reset.scss */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -87,7 +88,6 @@ body {
   color: white; }
 
 /* FIN MENU ---------------------------------------------------------------- */
-/* CARD de TESTIMONIOS INDEX.html----------------------------------------------------- */
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container {
   display: grid;
@@ -119,7 +119,9 @@ body {
 
 #card-item-p {
   padding: 0 1rem;
-  font-size: 70%; }
+  font-size: 70%;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; }
 
 /* ------------------------------------------------------------------- */
 /* utilizamos SASS, consepto de NESTING (Padre-Hijo), codigo comentado */
@@ -150,7 +152,7 @@ porque??????
     font-size: 13px; }
   #card-item-p {
     padding: 0 1rem;
-    font-size: 55%; }
+    font-size: 70%; }
   .dimension-texto {
     font-size: 80%; } }
 
@@ -213,8 +215,7 @@ porque??????
     transform: translateY(-15px);
     box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
     /* Fecha: 14/07/2022 */
-    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
-    background-color: #5E88FC; }
+    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */ }
   #card-item-p {
     /* background-color: aqua; */
     padding: 0 1rem;
@@ -316,8 +317,7 @@ porque??????
     transform: translateY(-15px);
     box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
     /* Fecha: 14/07/2022 */
-    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */
-    background-color: #5E88FC; }
+    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */ }
   #card-item-p {
     /* background-color: aqua; */
     padding: 0 1rem;

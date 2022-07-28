@@ -2,8 +2,8 @@
 @import "base/reset";
 @import "base/variables";
 @import "base/menu";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
 
-/* CARD de TESTIMONIOS INDEX.html----------------------------------------------------- */
 
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container{
@@ -42,6 +42,8 @@
 #card-item-p{
   padding: 0 1rem;
   font-size: 70%;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
 }
 /* ------------------------------------------------------------------- */
 /* utilizamos SASS, consepto de NESTING (Padre-Hijo), codigo comentado */
