@@ -1,0 +1,17 @@
+/* Incluyendo MIXIN */
+/* agrego un compontnte con parametro */
+@mixin flex-param-direction ($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+}
+
+@mixin alto-ancho($with, $height) {
+    width: $with;
+    height: $height;    
+}
+
+
+
+
+

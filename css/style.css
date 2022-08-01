@@ -12,6 +12,7 @@ body {
   font-family: sans-serif; }
 
 /* Import de archivo _variables.scss */
+/* Incoporamos listas */
 /* Import de archivo _menu.scss */
 .header_pp {
   background-color: #5E88FC;
@@ -88,6 +89,8 @@ body {
   color: white; }
 
 /* FIN MENU ---------------------------------------------------------------- */
+/* Incluyendo MIXIN */
+/* agrego un compontnte con parametro */
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container {
   display: grid;
@@ -141,6 +144,10 @@ lo debo colocar aqui en la linea 53, despues de la creacion en pagina normal.
 
 porque??????
 */
+/* Incluyendo MIXIN */
+/* agrego un compontnte con parametro */
+/* Import de archivo _variables.scss */
+/* Incoporamos listas */
 /* Import de archivo _media.scss */
 @media (min-width: 1200px) and (max-width: 1350px) {
   .hero-text2 {
@@ -208,21 +215,19 @@ porque??????
     max-width: 1200px;
     min-width: 500px;
     height: 70%; }
-  .card-container .card-item {
-    /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
-    margin: 20px; }
-  .card-container .card-item:hover {
-    transform: translateY(-15px);
-    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-    /* Fecha: 14/07/2022 */
-    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */ }
+    .card-container .card-item {
+      /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+      margin: 20px; }
+      .card-container .card-item img {
+        width: 300px;
+        height: 250px; }
+    .card-container .card-item:hover {
+      transform: translateY(-15px);
+      box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); }
   #card-item-p {
     /* background-color: aqua; */
     padding: 0 1rem;
-    font-size: 70%; }
-  .card-container .card-item img {
-    width: 300px;
-    height: 250px; } }
+    font-size: 70%; } }
 
 /* FIN Card ------------------------------------------ */
 @media (max-width: 768px) {
@@ -310,21 +315,19 @@ porque??????
     max-width: 1200px;
     min-width: 500px;
     height: 100%; }
-  .card-container .card-item {
-    /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
-    margin: 20px; }
-  .card-container .card-item:hover {
-    transform: translateY(-15px);
-    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-    /* Fecha: 14/07/2022 */
-    /* agregamos color de fondo para desafio: "CREAR REPOSITORIO EN GITHUB" */ }
+    .card-container .card-item {
+      /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
+      margin: 20px; }
+      .card-container .card-item img {
+        width: 300px;
+        height: 250px; }
+    .card-container .card-item:hover {
+      transform: translateY(-15px);
+      box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); }
   #card-item-p {
     /* background-color: aqua; */
     padding: 0 1rem;
     font-size: 70%; }
-  .card-container .card-item img {
-    width: 300px;
-    height: 250px; }
   /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */ }
 
 /* FIN MEDIA --------------------------------------------------------------- */
@@ -367,8 +370,9 @@ porque??????
 /* SERVICIOS.HTML --------------------------------*/
 .centrado_pp {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   min-height: 100vh; }
 
 /* FIN SERVICIOS.HTML --------------------------------*/
@@ -389,13 +393,15 @@ porque??????
   /* background-color: orangered; */
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
   font-size: 30px; }
 
 .hr {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 5px;
@@ -423,7 +429,6 @@ porque??????
 
 /* Formato para filtro de tarjetas de viajes del INDEX.html ------------*/
 .input_filtro {
-  background-color: tomato;
   border: 3px solid black;
   font-size: 18px;
   padding: 10px 10px 10px 10px;
