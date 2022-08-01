@@ -90,7 +90,18 @@ body {
 
 /* FIN MENU ---------------------------------------------------------------- */
 /* Incluyendo MIXIN */
-/* agrego un compontnte con parametro */
+/* Agrego componente con parametro */
+/* implementamos extend */
+/* Incluyendo MIXIN */
+/* Agrego componente con parametro */
+section .div-hr_1, section .div-hr_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 30px; }
+
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container {
   display: grid;
@@ -145,7 +156,7 @@ lo debo colocar aqui en la linea 53, despues de la creacion en pagina normal.
 porque??????
 */
 /* Incluyendo MIXIN */
-/* agrego un compontnte con parametro */
+/* Agrego componente con parametro */
 /* Import de archivo _variables.scss */
 /* Incoporamos listas */
 /* Import de archivo _media.scss */
@@ -389,6 +400,10 @@ porque??????
 
 /* FIN   CONTACTO.HTML -------------------------------- */
 /* INDEX-html -------------------------------*/
+/* Ejemplo de _extend.scss ------------------*/
+section .div-hr_1 .hr {
+  color: red; }
+
 .div-hr {
   /* background-color: orangered; */
   display: flex;

@@ -4,6 +4,7 @@
 @import "base/menu";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
 @import "base/mixin";
+@import "base/extend";
 
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container{
@@ -153,13 +154,25 @@ porque??????
 /* FIN   CONTACTO.HTML -------------------------------- */
  
 /* INDEX-html -------------------------------*/
+/* Ejemplo de _extend.scss ------------------*/
+section{
+  .div-hr_1{
+    @extend %divHr_ejemplo;
+    .hr{
+      color: red
+    }
+  }
+  .div-hr_2{
+    @extend %divHr_ejemplo;
+  }
+}
+
 .div-hr{
   /* background-color: orangered; */
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
   @include flex-param-direction(column);
-
   flex-wrap: nowrap;
   align-items: center;
   font-size: 30px;

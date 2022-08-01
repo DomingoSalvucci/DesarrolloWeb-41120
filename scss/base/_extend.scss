@@ -1,0 +1,9 @@
+/* implementamos extend */
+@import "../base/mixin";
+
+%divHr_ejemplo{
+    @include flex-param-direction(column);
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 30px;
+}

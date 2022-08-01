@@ -1,5 +1,5 @@
 /* Incluyendo MIXIN */
-/* agrego un compontnte con parametro */
+/* Agrego componente con parametro */
 @mixin flex-param-direction ($direction) {
     display: flex;
     flex-direction: $direction;
