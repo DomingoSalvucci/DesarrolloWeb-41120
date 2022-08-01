@@ -16,6 +16,7 @@
   height: 90%;
   .card-item{
     /*Hijo*/
+    // uso de mixin
     // box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
     box-shadow: 10px 15px 15px nth($colores_lst, 1);
     overflow: hidden;
@@ -26,6 +27,7 @@
     width: 80%;
     img {
       /*Hijo de Hijo*/
+      // uso de mixin
       // width: 100%;
       // height: 220px;
       @include alto-ancho(100%,220px);
@@ -114,13 +116,13 @@ porque??????
   align-items: center;
 }
 .div_1{
-  /* border: 2px solid red; */
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);
 } 
 .div_2{
-  /* border: 2px solid red; */
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);
@@ -130,6 +132,7 @@ porque??????
 
 /* SERVICIOS.HTML --------------------------------*/
 .centrado_pp {
+  // uso de mixin
   // display: flex;
   // flex-direction: row;
   // justify-content: center;
@@ -168,7 +171,7 @@ section{
 }
 
 .div-hr{
-  /* background-color: orangered; */
+  // uso de mixin
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
@@ -178,6 +181,7 @@ section{
   font-size: 30px;
 }
 .hr {
+  // uso de mixin
   // display: flex;
   // flex-direction: row;
   // justify-content: center;
@@ -210,7 +214,6 @@ section{
 }
 /* Formato para filtro de tarjetas de viajes del INDEX.html ------------*/
 .input_filtro {
-  // background-color: tomato;
   border: 3px solid nth($colores_lst, 3);
   font-size: 18px;
   padding: 10px 10px 10px 10px;
@@ -246,13 +249,6 @@ section{
 }
 /* FIN    Formato para filtro de tarjetas de viajes del INDEX.html -----------*/
 /* Fin   INDEX-html -------------------------------*/
-
-  // .parrafo{
-  //   display: block;
-  //   padding: 1%;
-  //   margin: 1%;
-  //   text-align: center;
-  // }
  
 /* FORMADEPAGO.HTML ------------------------------*/
 .formaDePago h1 {
@@ -381,6 +377,7 @@ section{
   text-align: center;
   border: nth($colores_lst, 3) 2px solid;
   grid-area: area1;
+  // uso de mixin
   // width: 50%;
   // height: 100%;
   @include alto-ancho(50%,100%);
@@ -390,6 +387,7 @@ section{
   text-align: center;
   border: nth($colores_lst, 3) 2px solid;
   grid-area: area2;
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);
@@ -399,6 +397,7 @@ section{
   text-align: center;
   border: nth($colores_lst, 3) 2px solid;
   grid-area: area3;
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);
@@ -408,6 +407,7 @@ section{
   text-align: center;
   border: nth($colores_lst, 3) 2px solid;
   grid-area: area4;
+  // uso de mixin
   // width: 50%;
   // height: 100%;
   @include alto-ancho(50%,100%);
@@ -417,7 +417,7 @@ section{
   text-align: center;
   border: nth($colores_lst, 21) 5px solid;
   grid-area: area5;
-  /* object-fit: cover; */
+  // uso de mixin
   // width: 50%;
   // height: 100%;
   @include alto-ancho(50%,100%);
@@ -427,11 +427,13 @@ section{
   text-align: center;
   border: nth($colores_lst, 23) 2px solid;
   grid-area: area6;
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);
 }
 .grid-nos-item1-img {
+  // uso de mixin
   // width: 100%;
   // height: 100%;
   @include alto-ancho(100%,100%);

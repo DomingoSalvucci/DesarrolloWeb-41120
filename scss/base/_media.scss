@@ -5,7 +5,6 @@
 @media (min-width: 1200px) and (max-width: 1350px) {
     .hero-text2 {
         top: 20% !important;
-        // font-size: 13px !important;
       }
     }
 
@@ -24,8 +23,6 @@
     .dimension-texto{
       font-size: 80%;;
     }
-
-
   }
   
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -49,7 +46,6 @@
         flex-direction: column;
         align-items: center;
         margin-right: 20px;
-        // background-color: #39638d;
         background-color: nth($list: $colores_lst, $n:24);
 
         position: fixed;
@@ -67,7 +63,6 @@
     }
   
     .nav-ul-li_pp:hover{
-      // background-color: #4a86c2;
       background-color: nth($list: $colores_lst, $n:25);
       width: 30%;
       font-size: 20px;
@@ -106,9 +101,9 @@
       min-width: 500px;
       height: 70%;
       .card-item{
-        /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
         margin: 20px;
         img {
+          // uso de mixin
           // width: 300px;
           // height: 250px;
           @include alto-ancho(300px,250px);
@@ -119,24 +114,10 @@
         box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);}
     }
   
-    // .card-container .card-item{
-    //   margin: 20px;
-    // }
-    // .card-container .card-item:hover{
-    //   transform: translateY(-15px);
-    //   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-    // }
-
     #card-item-p{
-      /* background-color: aqua; */
       padding: 0 1rem;
       font-size: 70%;
     }
-  
-    // .card-container .card-item img {
-    //   width: 300px;
-    //   height: 250px;
-    // }
   }
 /* FIN Card ------------------------------------------ */
   
@@ -171,7 +152,6 @@
         flex-direction: column;
         align-items: center;
         margin-right: 20px;
-        // background-color: #39638d;
         background-color: nth($list: $colores_lst, $n:24);
         position: fixed;
         top: 60px;
@@ -187,7 +167,6 @@
     }
     
     .nav-ul-li_pp:hover{
-      // background-color: #4a86c2;
       background-color: nth($list: $colores_lst, $n:25);
       width: 30%;
       font-size: 20px;
@@ -207,7 +186,6 @@
     .nav-toggle_pp{
         cursor:pointer;
         display: block;
-        
     }
   
     .nav-menu_visible{
@@ -223,13 +201,11 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      // color: rgb(0, 0, 0);
       color: nth($list: $colores_lst, $n:5);
       font-size:20px;
     }
     .hero-image{
       background-image: url("../images/mountains-g4dc235c11_1920.jpg");
-      // background-color: #cccccc;
       background-color: nth($list: $colores_lst, $n:6);
       height: 500px;
       background-position: center;
@@ -239,7 +215,6 @@
       width: 100%;
     }
     .div-hr{
-      /* background-color: orangered; */
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -261,9 +236,9 @@
       min-width: 500px;
       height: 100%;
       .card-item{
-        /* box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2); */
         margin: 20px;
         img {
+          // uso de mixin
           // width: 300px;
           // height: 250px;
           @include alto-ancho(300px,250px);
@@ -275,28 +250,14 @@
         }
     }
   
-    // .card-container .card-item{
-    //   margin: 20px;
-    // }
-  
-    // .card-container .card-item:hover{
-    //   transform: translateY(-15px);
-    //   box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
-    // }
     #card-item-p{
       /* background-color: aqua; */
       padding: 0 1rem;
       font-size: 70%;
     }
   
-    // .card-container .card-item img {
-    //   width: 300px;
-    //   height: 250px;
-    // }
-  
-  
     /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
-  
+
   }
   /* FIN MEDIA --------------------------------------------------------------- */
   /* FIN MEDIA --------------------------------------------------------------- */
