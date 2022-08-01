@@ -1,0 +1,29 @@
+En todos los archivos incorpore SEO con las siguientes características:
+
+Descripción: 
+Mediante la etiqueta "<meta name="description"" content="">, agregué el siguiente párrafo que explica de forma amigable cual es el espiritu de nuestros servicios: “Queremos ofrecerte nuestro servicios de turismo, busqueda y reservas para hacer de tu viaje el mejor viaje. Nos ocupamos de todo, desde la busqueda hasta las reservas, analizamos juntos que es lo que mejor te conviene o esta dentrod e tu presupuesto. Amamos tu viaje soñado!"
+
+Palabras clave: 
+Mediante la etiqueta <meta name="keywords"  content=">, agregué las palabras clave que acompañarán a todas las páginas de mi sitio web, pensando simpre en la relacion de la palabra con nel servicio ofredido, las palabras claves que se utilizaron son:
+"hotel ,turismo ,travel ,excursion ,transporte ,restaurante ,tours, vuelo, alojamiento, actividades"
+
+Titulo:
+En la etiqueta <title> se agrego texto amiagble y que describa muy brevemmente donde esta ubicado el usuario en nuestra pagina.
+Se agregan tambien iconos en las pestañas del navegador, que permite saber facilmente donde esta ubicado el usuario. utilizamos la etiqueta <link rel="shortcut icon" href="">.
+
+Redes sociales:
+Se penso desde el desarrollo de la pagina web la incorporacion de las redes sociales, pero con la incorporacion de SEO se penso en incorporar un orden de jerarquia en la distribucion de los icones de las redes sociales, se odifica al siguiente order:
+    1.-YouTube,
+    2.-Facebook,
+    3.-Instagram,
+    4.-Tweeter.
+Este orden de jerarquia toma en cuenta la encuesta realizada por la empresa way2net.com (Servicios de Marketing OnLine) donde en su estaidsitica publicada en 2021; "https://www.way2net.com/2021/05/estadisticas-de-redes-sociales-en-argentina-2021/"
+toma en cuenta al público de 16 años hasta 64 años.
+Cosiderando el item "Las plataformas de redes sociales más usadas en Argentina".
+
+Tambien se mantiene en cosideracion la audiencias publicitaria, donde el orden es levemente modificado:
+Facebook: 31 millones/mes.
+Instagram: 21 millones/mes.
+
+
+
