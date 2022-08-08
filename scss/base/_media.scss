@@ -2,18 +2,73 @@
 @import "../base/variables";
 
 /* Import de archivo _media.scss */
-@media (min-width: 1200px) and (max-width: 1350px) {
+  @media (min-width: 1200px) and (max-width: 1350px) {
+    .ajustar-texto{
+      overflow-y: hidden !important;
+    }
     .hero-text2 {
         top: 20% !important;
       }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .display-no{
+      display:none;
+    }
+    /* MENU ---------------------------------------------- */
+    .header_pp {
+      height: 60px;
     }
 
- @media (min-width: 992px) and (max-width: 1199.98px) {
-   
+    .nav-ul_pp {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: nth($list: $colores_lst, $n:24);
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0px; 
+        overflow-y: auto;
+  
+        left: 100%;
+        transition: left 0.3s;
+    }
+  
+    .nav-ul-li_pp{
+      line-height: 30px;
+
+    }
+  
+    .nav-ul-li_pp:hover{
+      background-color: nth($list: $colores_lst, $n:25);
+      width: 30%;
+      font-size: 20px;
+      transition: 0.2s;
+    }
+  
+    .nav-ul-li-link_pp:hover,
+    .nav-ul-li-link_active{
+        background: none;
+    }
+  
+    .nav-toggle_pp{
+        display: block;
+        cursor: pointer;
+    }
+  
+    .nav-menu_visible{
+        left: 0;
+    }
+
+    .ajustar-texto{
+      overflow-y: none !important;
+    }
     .hero-text2 {
         top: 2% !important;
         font-size: 13px;
-        }
+    }
 
     #card-item-p{
       padding: 0 1rem;
@@ -26,6 +81,10 @@
   }
   
   @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .ajustar-texto{
+      overflow-y: none !important;
+    }
     .hero-text2 {
         top: 40% !important;
       }
@@ -41,13 +100,12 @@
     .header_pp {
       height: 60px;
     }
-  
+
     .nav-ul_pp {
         flex-direction: column;
         align-items: center;
         margin-right: 20px;
         background-color: nth($list: $colores_lst, $n:24);
-
         position: fixed;
         top: 60px;
         width: 100%;
@@ -60,6 +118,7 @@
   
     .nav-ul-li_pp{
       line-height: 30px;
+
     }
   
     .nav-ul-li_pp:hover{
@@ -120,9 +179,12 @@
     }
   }
 /* FIN Card ------------------------------------------ */
-  
-  
   @media(max-width: 768px){
+    .ajustar-texto{
+      // overflow-y: scroll !important;
+      overflow: auto;
+      
+    }
     .hero-text2 {
         top: 50% !important;
         }
@@ -139,9 +201,10 @@
     .display-no{
       display:none;
     }
-  
+ 
     .dimension-texto{
       font-size: 70%;;
+
     }
   
     .header_pp {
@@ -157,7 +220,7 @@
         top: 60px;
         width: 100%;
         padding: 20px 0px;
-        overflow-y: auto;
+        overflow-y: scroll;
         left: 100%;
         transition: left 0.3s;
     }

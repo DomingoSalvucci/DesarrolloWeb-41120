@@ -161,10 +161,46 @@ porque??????
 /* Incoporamos listas */
 /* Import de archivo _media.scss */
 @media (min-width: 1200px) and (max-width: 1350px) {
+  .ajustar-texto {
+    overflow-y: hidden !important; }
   .hero-text2 {
     top: 20% !important; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .display-no {
+    display: none; }
+  /* MENU ---------------------------------------------- */
+  .header_pp {
+    height: 60px; }
+  .nav-ul_pp {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #39638d;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0px;
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s; }
+  .nav-ul-li_pp {
+    line-height: 30px; }
+  .nav-ul-li_pp:hover {
+    background-color: #4a86c2;
+    width: 30%;
+    font-size: 20px;
+    transition: 0.2s; }
+  .nav-ul-li-link_pp:hover,
+  .nav-ul-li-link_active {
+    background: none; }
+  .nav-toggle_pp {
+    display: block;
+    cursor: pointer; }
+  .nav-menu_visible {
+    left: 0; }
+  .ajustar-texto {
+    overflow-y: none !important; }
   .hero-text2 {
     top: 2% !important;
     font-size: 13px; }
@@ -175,6 +211,8 @@ porque??????
     font-size: 80%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .ajustar-texto {
+    overflow-y: none !important; }
   .hero-text2 {
     top: 40% !important; }
   .dimension-texto {
@@ -240,6 +278,8 @@ porque??????
 
 /* FIN Card ------------------------------------------ */
 @media (max-width: 768px) {
+  .ajustar-texto {
+    overflow: auto; }
   .hero-text2 {
     top: 50% !important; }
   /* tamaño de la letra cuando usamos menu hamburguesa en preguntasFrecuentes.html */
@@ -265,7 +305,7 @@ porque??????
     top: 60px;
     width: 100%;
     padding: 20px 0px;
-    overflow-y: auto;
+    overflow-y: scroll;
     left: 100%;
     transition: left 0.3s; }
   .nav-ul-li_pp {
