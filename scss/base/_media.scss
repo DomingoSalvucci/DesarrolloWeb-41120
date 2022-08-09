@@ -3,6 +3,9 @@
 
 /* Import de archivo _media.scss */
   @media (min-width: 1200px) and (max-width: 1350px) {
+    .footer-tamaño-text{
+      font-size: 95%;
+    }    
     .ajustar-texto{
       overflow-y: hidden !important;
     }
@@ -13,6 +16,9 @@
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    .footer-tamaño-text{
+      font-size: 90%;
+    }
     .display-no{
       display:none;
     }
@@ -66,7 +72,7 @@
       overflow-y: none !important;
     }
     .hero-text2 {
-        top: 2% !important;
+        top: 20% !important;
         font-size: 13px;
     }
 
@@ -81,7 +87,11 @@
   }
   
   @media (min-width: 768px) and (max-width: 991.98px) {
-
+    
+    
+    .footer-tamaño-text{
+      font-size: 80%;
+    }
     .ajustar-texto{
       overflow-y: none !important;
     }
@@ -156,9 +166,9 @@
       justify-items: center;
       margin: auto;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      max-width: 1200px;
+      max-width: 800px;
       min-width: 500px;
-      height: 70%;
+      height: 60%;
       .card-item{
         margin: 20px;
         img {
@@ -177,16 +187,38 @@
       padding: 0 1rem;
       font-size: 70%;
     }
-  }
-/* FIN Card ------------------------------------------ */
+
+}
+
   @media(max-width: 768px){
+
+    // .foot-icon-flex{
+    //   display: flex !important;
+    //   flex-direction: column !important;
+    //   align-items: center !important;
+    //   justify-content: center !important;
+    // }
+    .p_pp{
+      font-size:22px;
+    }
+
+    .foot-icon-tamaño{
+      font-size: 30px;
+    }
+
+    .footer-tamaño-text{
+      font-size: 75%;
+    }
     .ajustar-texto{
       // overflow-y: scroll !important;
       overflow: auto;
       
     }
     .hero-text2 {
-        top: 50% !important;
+        top: 40% !important;
+        // color: black !important;
+        font-size: 12px;
+
         }
     /* tamaño de la letra cuando usamos menu hamburguesa en preguntasFrecuentes.html */
     .tamaño_pp{
@@ -291,13 +323,13 @@
       /* 12/07/2022 */
       /* modificamos flex por GRID para el desafio */
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 95%;
       justify-items: center;
-      margin: auto;
+      // margin: auto;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      max-width: 1200px;
-      min-width: 500px;
-      height: 100%;
+      // max-width: 1200px;
+      // min-width: 500px;
+      // height: 100%;
       .card-item{
         margin: 20px;
         img {

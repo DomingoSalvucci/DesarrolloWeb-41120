@@ -6,6 +6,31 @@
 @import "base/mixin";
 @import "base/extend";
 
+
+.foot-div-li{
+  color: black !important; //#2b63fd
+  text-decoration:none !important;
+}
+.foot-div-li:hover{
+  // color: blue !important;
+  text-decoration:none !important;
+  text-shadow: 1px 1px 1px rgb(187, 188, 194);
+}
+.foot-icon-shadow{
+  color: #2b63fd;
+}
+.foot-icon-shadow:hover{
+  // color: #66fa03;
+  // text-shadow: 1px 1px 1px rgb(110, 196, 236);
+  text-shadow: 1px 4px 3px rgb(0, 0, 0);
+}
+
+.foot-icon-tamaño{
+  font-size: 40px;
+}
+
+
+
 /* adaptamos a NESTING, usamos la forma PADRE-HIJO*/
 .card-container{
   display: grid;
@@ -193,8 +218,14 @@ section{
   width: 50%;
   background-color: nth($colores_lst, 3);
 }
+
+.p_pp{
+  text-align: center !important;
+  color: blue !important;
+}
 /* codigo para adaptar texto flotante e imagen de montaña------------------- */
 .hero-text {
+  float: left;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -203,6 +234,7 @@ section{
   color: nth($list: $colores_lst, $n:5);
   font-size:30px;
 }
+
 .hero-image {
   background-image: url("../images/mountains-g4dc235c11_1920.jpg");
   background-color: nth($colores_lst, 6);
