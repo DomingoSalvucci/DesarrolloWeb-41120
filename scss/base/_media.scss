@@ -191,13 +191,18 @@
 }
 
   @media(max-width: 768px){
-
-    // .foot-icon-flex{
-    //   display: flex !important;
-    //   flex-direction: column !important;
-    //   align-items: center !important;
-    //   justify-content: center !important;
-    // }
+    .tamaño-icono{
+      font-size: 10px;
+    }
+    #icon-1{
+      font-size: 35px;
+    }
+    #icon-2{
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      padding: 10%;
+    }
+    
     .p_pp{
       font-size:22px;
     }
