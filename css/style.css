@@ -158,20 +158,6 @@ section .div-hr_1, section .div-hr_2 {
 /* utilizamos SASS, consepto de NESTING (Padre-Hijo), codigo comentado */
 /* ------------------------------------------------------------------- */
 /* FIN   CARD de TESTIMONIOS ----------------------------------------------- */
-/* KARINA: no se porque debo colocar el @import "base/media"; luego del armado origina de las CARD que yo arme
-si lo agrego arriba de todo, no funciona el:
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-    ni tampoco:
-
-  display: grid;
-  grid-template-columns: 1fr;
-
-lo debo colocar aqui en la linea 53, despues de la creacion en pagina normal.
-
-porque??????
-*/
 /* Incluyendo MIXIN */
 /* Agrego componente con parametro */
 /* Import de archivo _variables.scss */
